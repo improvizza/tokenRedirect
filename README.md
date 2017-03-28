@@ -9,5 +9,6 @@ The requests are curl based and already configured to set the following actions:
 <li>&nbsp;Sending all requests to a proxy (usefull to send to burp.</li>
 <li>&nbsp;Each request has a loop option, allowing to add a dictionary to performe a brute-force attack.
 <ul>
+
 By default the request are empty and you need to set them up for your target.
 Speed of the brute-force attack can be modified by changing the value of the sleep function which is written in seconds (it works with decimals).
