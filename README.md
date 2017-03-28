@@ -3,10 +3,10 @@ Bash script performing consecutive requests, grabing a unique token from the fir
 
 The requests are curl based and already configured to set the following actions:
 
-&nbspSending POST requests with non-multipart data.</br>
-&nbspSetting the desired HTTP headers.</br>
-&nbspSending all requests to a proxy (usefull to send to burp.</br>
-&nbspEach request has a loop option, allowing to add a dictionary to performe a brute-force attack.
+&nbsp;Sending POST requests with non-multipart data.</br>
+&nbsp;Setting the desired HTTP headers.</br>
+&nbsp;Sending all requests to a proxy (usefull to send to burp.</br>
+&nbsp;Each request has a loop option, allowing to add a dictionary to performe a brute-force attack.
 
 By default the request are empty and you need to set them up for your target.
 Speed of the brute-force attack can be modified by changing the value of the sleep function which is written in seconds (it works with decimals).
