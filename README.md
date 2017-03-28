@@ -2,6 +2,7 @@
 Bash script performing consecutive requests, grabing a unique token from the first response (should be from the login request) to send it along with the next requests.
 
 The requests are curl based and already configured to set the following actions:
+
 Sending POST requests with non-multipart data
 Setting the desired HTTP headers
 Sending all requests to a proxy (usefull to send to burp
