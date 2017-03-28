@@ -12,3 +12,4 @@ The requests are curl based and already configured to set the following actions:
 
 By default the request are empty and you need to set them up for your target.
 Speed of the brute-force attack can be modified by changing the value of the sleep function which is written in seconds (it works with decimals).
+NOTE:The dictionary file must be in the same folder of the sh script.
